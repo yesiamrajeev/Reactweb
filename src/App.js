@@ -3,22 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <a href="#header">Home<b style={{ color: 'rgb(245, 122, 77)', fontSize: '28px' }} />/&gt;</a>
+      <a href="#home">About<b style={{ color: 'rgb(245, 122, 77)', fontSize: '28px' }} />/&gt;</a>
+      <a href="#projects">Projects<b style={{ color: 'rgb(245, 122, 77)', fontSize: '28px' }} />/&gt;</a>
+      <a href="#achivements">Achivements<b style={{ color: 'rgb(245, 122, 77)', fontSize: '28px' }} />/&gt;</a>
+      <a href="#tictac">Game<b style={{ color: 'rgb(245, 122, 77)', fontSize: '28px' }} />/&gt;</a>
+      <a href="#contact">Contact<b style={{ color: 'rgb(245, 122, 77)', fontSize: '28px' }} />/&gt;</a>
     </div>
+    
   );
 }
 
